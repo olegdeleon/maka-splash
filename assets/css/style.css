@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'PNS-Regular';
+  src: url(../fonts/proxima-nova-soft-light-webfont.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'PNS-Medium';
+  src: url(../fonts/proxima-nova-soft-normal-webfont.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'PNS-Bold';
+  src: url(../fonts/proxima-nova-soft-black-webfont.ttf);
+  font-weight: 700;
+}
+
+
+body {
+  background: url(../img/garaje-bg.jpg) no-repeat center center fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: 'PNS-Regular', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PNS-Bold';
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #292929;
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.call-to-action {
+  color: #c2c2c2;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+label {
+  color: #888888;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-left: 63px;
+}
+
+input, select {
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #292929;
+  font-family: 'PNS-Regular';
+  font-size: 14px;
+  display: block;
+  height: 20px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  width: 300px;
+}
+
+input::placeholder {
+  color: #c2c2c2;
+  font-family: 'PNS-Regular';
+  font-size: 14px;
+}
+
+input:focus {
+  background: white;
+  border: 2px solid #e87e04;
+  outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+button {
+  background: #e87e04;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: 'PNS-Bold', sans-serif;
+  font-size: 18px;
+  font-weight: 700px;
+  height: 50px;
+  margin: 20px auto;
+  outline: none;
+  text-align: center;
+  transition: 0.2s linear;
+  width: 320px;
+}
+
+button:hover {
+  background: #d67403;
+}
+
+select {
+  -moz-border-radius: 0px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding: 10px 20px;
+  width: 320px;
+}
+
+select:focus {
+  outline: none;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+#logo {
+  display: block;
+  margin: 15% auto 0;
+  width: 200px;
+}
+
+#copyright {
+  color: #4f7292;
+  font-size: 11px;
+  line-height: 16px;
+  margin: 80px 0 0;
+  text-align: center;
+}
+
+.form-container {
+  background: #fff;
+  height: 100%;
+  margin: 0 auto;
+  width: 450px;
+}
+
+.form-group {
+  margin: 30px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.button-group {
+  text-align: center;
+}
+
+.sub-label {
+  color: #4f7292;
+  text-align: center;
+}
+
+.-small {
+  display: inline;
+  width: 160px;
+}
+
+.-none {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.-outline {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #2ebfa5;
+  color: #2ebfa5;
+}
+
+.-none:hover, .-outline:hover {
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+  label {
+    padding-left: 15px;
+  }
+
+  button, input, select {
+    width: 274px;
+  }
+
+  .form-container {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  label {
+    padding-left: 15px;
+  }
+
+  button, input, select {
+    width: 247px;
+  }
+
+  .form-container {
+    width: 300px;
+  }
+
+  .-small {
+    width: 120px;
+  }
+}
