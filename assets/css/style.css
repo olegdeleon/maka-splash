@@ -75,7 +75,7 @@ input::placeholder {
 
 input:focus {
   background: white;
-  border: 2px solid #e87e04;
+  border: 2px solid #f6ca0d;
   outline: none;
 }
 
