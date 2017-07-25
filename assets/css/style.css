@@ -19,14 +19,14 @@
 
 body {
   background: #191919;
-  font-family: 'PNS-Regular', sans-serif;
+  font-family: 'Courier New', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'PNS-Bold';
+  font-family: 'Courier New';
 }
 
-h1 {
+h5 {
   color: white;
   text-align: center;
   margin-bottom: 0;
@@ -40,7 +40,7 @@ h2 {
 
 .call-to-action {
   color: #c2c2c2;
-  font-size: 20px;
+  font-size: 12px;
   margin-top: 10px;
   text-align: center;
 }
@@ -56,21 +56,21 @@ label {
 
 input, select {
   border: 2px solid #fff;
-  border-radius: 4px;
+  border-radius: 2px;
   color: #292929;
-  font-family: 'PNS-Regular';
+  font-family: 'Courier New';
   font-size: 14px;
   display: block;
   height: 20px;
   margin: 0 auto;
-  padding: 10px 10px;
-  width: 300px;
+  padding: 5px 5px;
+  width: 200px;
 }
 
 input::placeholder {
   color: #c2c2c2;
-  font-family: 'PNS-Regular';
-  font-size: 14px;
+  font-family: 'Courier New';
+  font-size: 10px;
 }
 
 input:focus {
@@ -93,15 +93,15 @@ button {
   color: #191919;
   cursor: pointer;
   display: block;
-  font-family: 'PNS-Bold', sans-serif;
-  font-size: 18px;
-  font-weight: 700px;
-  height: 50px;
+  font-family: 'Courier New', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
   margin: 20px auto;
   outline: none;
   text-align: center;
   transition: 0.2s linear;
-  width: 320px;
+  width: 215px;
 }
 
 button:hover {
@@ -129,11 +129,11 @@ select:focus {
 #logo {
   display: block;
   margin: 15% auto 0;
-  width: 200px;
+  width: 100px;
 }
 
 #copyright {
-  color: #393939;
+  color: #494949;
   font-size: 11px;
   line-height: 16px;
   margin: 80px 0 0;
